@@ -1,0 +1,4 @@
+Media Query:
+
+Build a box with a certain width height nd color
+Then change it with media query

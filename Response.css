@@ -1,0 +1,42 @@
+/* Background Color:
+mobile -> Green
+tablet -> blue
+laptop -> red
+pc ->  orange */
+
+
+/* Moblie-First Approach:
+
+It means first we have to consider the mobile screen.
+For this we dont have to apply anything
+
+then move to tablet -> Laptop -> PC */
+
+
+/* Standard Breakpoints  Used in old bootstrap
+Mobile-> 0-767px
+Tablet-> 768px
+Laptop-> 1020px
+Pc-> 1400px */
+
+body{
+    background-color: green;
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color: orange;
+    }
+}
